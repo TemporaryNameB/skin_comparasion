@@ -24,7 +24,7 @@ compareButton.addEventListener("click", () => {
     selectedValues = selectedValues.concat(selectedValues_pk);
     selectedValues = selectedValues.concat(selectedValues_wg);
     selectedValues = selectedValues.concat(selectedValues_r99);
-    ыselectedValues = selectedValues.concat(selectedValues_car);
+    selectedValues = selectedValues.concat(selectedValues_car);
 
 
     // Скрываем все изображения
