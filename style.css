@@ -37,10 +37,6 @@ body {
     text-decoration: none;
 }
 
-
-
-
-
 /*                  ----- донаты -----                          */
 .donate {
     z-index: 100; /* задает слой, на котором будет располагаться изображение */
@@ -66,9 +62,6 @@ body {
 .donate a {
     color: #ffffff;
 }
-
-
-
 
 /*                  ----- инструкции -----                          */
 #instructions {
@@ -97,7 +90,6 @@ body {
   font-weight: bold;
   color: var(--color-text);
 }
-
 
 /*                  ----- кнопка сравнения -----               */
 #compare-button {
@@ -197,9 +189,6 @@ body {
   visibility: visible;
 }
 
-
-
-
 /*                  ----- поле с картинками -----               */
 .image-container {
   position: relative; /* относительное позиционирование для контейнера */
@@ -222,3 +211,126 @@ body {
     height: 100%;
 }
 
+#forMobile{
+  display: none;
+}
+
+/* Media query for Mobile phone */
+/* -> There is no support for mobile */
+@media only screen and (max-width: 769px){
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #fff;
+    margin: 5px;
+  }
+  :root {
+    --color-text: #3c5980;
+  }
+  
+  /*                  ----- лого -----                          */
+  .logo {
+      padding: 1%;
+      background-color: #dce2e8;
+      border: 1px solid;
+      margin-bottom: 5px;
+
+  }
+  .logo h1 {
+      margin-left: 20px;
+      margin-bottom: 10px;
+      margin-top: -3px;
+      font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+      font-size: 20px; /*30*/
+      font-weight: bold;
+      color: var(--color-text);
+  }
+  
+  .logoby {
+      padding: 1%;
+  }
+  .logoby a {
+      margin-left: 20px;
+      font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+      font-size: 10px;/*20*/
+      font-weight: bold;
+      color: var(--color-text);
+      text-decoration: none;
+  }
+  
+  /*                  ----- донаты -----                          */
+  .donate {
+      z-index: 100; /* задает слой, на котором будет располагаться изображение */
+      position: relative;
+      float: right;
+      top: -30px;
+      left: -16px;
+    border-radius: 5px; /* добавляем округлость */
+    border: none; /* убирает границы, добавляет минимализм */
+    background-color: #4b627d; /* цвет бекграунда самой кнопки */
+      color: #fff; /* белый цвет текста */
+    font-size: 20px; /* размер текста 20*/
+    padding: 10px 20px;
+    cursor: pointer; /* курсор указатель при наведении */
+    text-decoration: none; /* убирает подчёркивания */
+
+  }
+  .donate:hover {
+    background-color: #6aa1dc;
+  }
+  .donate:active {
+    background-color: #4174a9;
+  }
+  .donate a {
+      color: #ffffff;
+  }
+
+  #forMobile{
+    display: block;
+    outline-style: solid;
+    background-color: #dce2e8;
+    border: 1px solid;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: var(--color-text);
+  }
+  
+  /*                  ----- инструкции -----                          */
+  #instructions {
+    display: none;
+  }
+  
+  /*                  ----- кнопка сравнения -----               */
+  #compare-button {
+    display: none;
+  }
+  
+  /*                  ----- кнопка ресет -----               */
+  #reset-button {
+    display: none;
+  }
+  
+  /*      Добавляем линию сверху для виджетов     */
+  #selection {
+    display: none;
+  }
+  
+  
+  /*                  ----- имя -----                          */
+  #name {
+    display: none;
+  }
+  
+  /*                  ----- выбор -----                       */
+  .image-select {
+    display: none;
+  }
+  
+  /*                  ----- поле с картинками -----               */
+  .image-container {
+    display: none;
+  }
+  
+  /*                  ----- стили изображения -----               */
+  .image {
+    display: none;
+  }
+}
