@@ -105,7 +105,7 @@ body {
     position: relative;
     float: left;
     top: -20px;
-    left: 8.5%; /* 160px */
+    left: 5%; /* 160px 8.5% */ 
 	border-radius: 5px; /* добавляем округлость */
 	border: none; /* убирает границы, добавляет минимализм */
 	background-color: #4b627d; /* цвет бекграунда самой кнопки */
@@ -121,7 +121,27 @@ body {
 	background-color: #4172a7;
 }
 
-
+/*                  ----- кнопка ресет -----               */
+#reset-button {
+    z-index: 2; /* задает слой, на котором будет располагаться изображение */
+    position: relative;
+    float: left;
+    top: -20px;
+    left: 5%; /* 160px 8.5%  */
+  border-radius: 5px; /* добавляем округлость */
+  border: none; /* убирает границы, добавляет минимализм */
+  background-color: #c220e6; /* цвет бекграунда самой кнопки */
+  color: #fff; /* белый цвет текста */
+  font-size: 20px; /* размер текста */
+  padding: 12px 23px;
+  cursor: pointer; /* курсор указатель при наведении */
+}
+#reset-button:hover {
+  background-color: #9c0e6f;
+}
+#reset-button:active {
+  background-color: #9e30c9;
+}
 
 /*      Добавляем линию сверху для виджетов     */
 #selection {
