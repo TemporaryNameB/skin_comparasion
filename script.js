@@ -20,7 +20,7 @@ compareButton.addEventListener("click", () => {
     const selectedValues_car =    Array.from(imageSelect_car.selectedOptions, option => option.value);
 
     // соединяем все значения в один Array
-    var selectedValues = selectedValues_flat.concat(selectedValues_r301);
+    let selectedValues = selectedValues_flat.concat(selectedValues_r301);
     selectedValues = selectedValues.concat(selectedValues_pk);
     selectedValues = selectedValues.concat(selectedValues_wg);
     selectedValues = selectedValues.concat(selectedValues_r99);

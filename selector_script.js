@@ -1,9 +1,9 @@
 const selectFlat = document.getElementById("image-select-flat");
 const selectR301 = document.getElementById("image-select-r301");
-let select_pk = document.getElementById("image-select-pk");
-let select_wg = document.getElementById("image-select-wg");
-let select_r99 = document.getElementById("image-select-r99");
-let select_car = document.getElementById("image-select-car");
+const select_pk = document.getElementById("image-select-pk");
+const select_wg = document.getElementById("image-select-wg");
+const select_r99 = document.getElementById("image-select-r99");
+const select_car = document.getElementById("image-select-car");
 
 function toggleOptionSelection(e) {
     e.preventDefault();
