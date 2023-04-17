@@ -8,6 +8,7 @@ body {
   --color-text: #3c5980;
 }
 
+
 /*                  ----- лого -----                          */
 .logo {
     padding: 1%;
@@ -37,6 +38,7 @@ body {
     text-decoration: none;
 }
 
+
 /*                  ----- донаты -----                          */
 .donate {
     z-index: 100; /* задает слой, на котором будет располагаться изображение */
@@ -62,6 +64,7 @@ body {
 .donate a {
     color: #ffffff;
 }
+
 
 /*                  ----- инструкции -----                          */
 #instructions {
@@ -119,20 +122,20 @@ body {
     position: relative;
     float: left;
     top: -20px;
-    left: 5%; /* 160px 8.5%  */
-  border-radius: 5px; /* добавляем округлость */
-  border: none; /* убирает границы, добавляет минимализм */
-  background-color: #c220e6; /* цвет бекграунда самой кнопки */
-  color: #fff; /* белый цвет текста */
-  font-size: 20px; /* размер текста */
-  padding: 12px 23px;
-  cursor: pointer; /* курсор указатель при наведении */
+    left: 6%; /* 160px 8.5%  */
+    border-radius: 5px; /* добавляем округлость */
+    border: none; /* убирает границы, добавляет минимализм */
+    background-color: #4b627d; /* цвет бекграунда самой кнопки */
+    color: #fff; /* белый цвет текста */
+    font-size: 20px; /* размер текста */
+    padding: 12px 23px;
+    cursor: pointer; /* курсор указатель при наведении */
 }
 #reset-button:hover {
-  background-color: #9c0e6f;
+    background-color: #4b617c;
 }
 #reset-button:active {
-  background-color: #9e30c9;
+    background-color: #4172a7;
 }
 
 /*      Добавляем линию сверху для виджетов     */
@@ -214,6 +217,8 @@ body {
 #forMobile{
   display: none;
 }
+
+
 
 /* Media query for Mobile phone */
 /* -> There is no support for mobile */
