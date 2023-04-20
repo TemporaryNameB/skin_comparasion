@@ -222,7 +222,7 @@ body {
 
 /* Media query for Mobile phone */
 /* -> There is no support for mobile */
-@media only screen and (max-width: 769px){
+@media only screen and (max-device-width: 769px){
   body {
     font-family: Arial, sans-serif;
     background-color: #fff;
